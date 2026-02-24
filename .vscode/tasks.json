@@ -12,6 +12,8 @@
     "${fileDirname}\\${fileBasenameNoExtension}.exe",
     "-std=c++17",
     "-lraylib",
+    "-lsfml-audio",
+    "-lsfml-system",
     "-lwinmm",
     "-lgdi32",
     "-lws2_32",
